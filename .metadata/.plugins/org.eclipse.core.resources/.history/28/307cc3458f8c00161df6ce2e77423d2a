@@ -1,0 +1,10 @@
+package com.gradle.mvc.config;
+
+@Configuration
+@EnableWebMvc
+public class AppConfig {
+	
+	@Bean
+	public jinkiController jinki
+
+}

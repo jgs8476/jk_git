@@ -1,0 +1,7 @@
+package com.gradle.mvc.config;
+
+import com.gradle.mvc.jinkiController;
+
+public class AppConfig {
+
+}

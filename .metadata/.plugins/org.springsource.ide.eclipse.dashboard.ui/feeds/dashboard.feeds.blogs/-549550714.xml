@@ -5,7 +5,35 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2016-10-06T14:07:23Z</updated>
+  <updated>2016-10-07T12:06:39Z</updated>
+  <entry>
+    <title>Spring Tool Suite 3.8.2 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/10/07/spring-tool-suite-3-8-2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Martin Lippert</name>
+    </author>
+    <id>tag:spring.io,2016-10-07:2649</id>
+    <updated>2016-10-07T12:06:39Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the 3.8.2 release of the Spring Tool Suite, our Eclipse-based tooling.&lt;/p&gt;
+&lt;p&gt;STS 3.8.2 focuses on adopting Eclipse Neon.1 and fixing existing issues. The list of changes include:&lt;/p&gt;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Updated to Eclipse Neon.1&lt;/li&gt;&#xD;
+&lt;li&gt;Includes Eclipse Automatic Error Reporting&lt;/li&gt;&#xD;
+&lt;li&gt;Custom Spring Initializr now usable directly from within STS&lt;/li&gt;&#xD;
+&lt;li&gt;New Spring Starter Wizard now features default selections&lt;/li&gt;&#xD;
+&lt;li&gt;Fixed a problem that caused parallel push of multiple apps in boot dashboard to fail&lt;/li&gt;&#xD;
+&lt;li&gt;Fixed a deadlock when selecting BuildShip in New Spring Starter wizard&lt;/li&gt;&#xD;
+&lt;li&gt;and more...&lt;/li&gt;&#xD;
+&lt;/ul&gt;
+&lt;p&gt;To download the distributions, please go visit:&lt;/p&gt;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Spring Tool Suite: &lt;a href="https://spring.io/tools/sts/all"&gt;https://spring.io/tools/sts/all&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;/ul&gt;
+&lt;p&gt;Detailed new and noteworthy notes can be found here: &lt;a href="http://docs.spring.io/sts/nan/v382/NewAndNoteworthy.html"&gt;STS 3.8.2 New &amp;amp; Noteworthy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud Data Flow for Cloud Foundry 1.1M1 and 1.0.1 released</title>
     <link rel="alternate" href="https://spring.io/blog/2016/10/06/spring-cloud-data-flow-for-cloud-foundry-1-1m1-and-1-0-1-released" />
@@ -768,33 +796,5 @@ Issues&lt;/a&gt;, or via the comments section. You can also ping me
   &lt;li&gt;Integration to Ambari&amp;rsquo;s &lt;a href="https://cwiki.apache.org/confluence/display/AMBARI/Extensions+-+2.4.0"&gt;Extensions&lt;/a&gt; and &lt;a href="https://cwiki.apache.org/confluence/display/AMBARI/Management+Packs+-+2.4.0"&gt;Management Packs&lt;/a&gt; allowing upgrades&lt;/li&gt;
   &lt;li&gt;Better versioning for release artifacts needed for upgrade support&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring IO Platform Athens-RELEASE</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/09/22/spring-io-platform-athens-release" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2016-09-22:2630</id>
-    <updated>2016-09-22T13:54:22Z</updated>
-    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="http://platform.spring.io/platform"&gt;Spring IO Platform&lt;/a&gt; Athens-RELEASE is now available from both &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#artifactdetails%7Cio.spring.platform%7Cplatform-bom%7CAthens-RELEASE%7Cpom"&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This release adopts a new alphabetical versioning scheme similar to those already used by Spring Cloud and Spring Data. The theme for the Platform¡¯s versions is world cities.&lt;/p&gt;
-&lt;p&gt;The Athens release upgrades the versions of several projects:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Spring AMQP 1.6&lt;/li&gt;
-  &lt;li&gt;Spring Boot 1.4&lt;/li&gt;
-  &lt;li&gt;Spring Data Hopper&lt;/li&gt;
-  &lt;li&gt;Spring Framework 4.3&lt;/li&gt;
-  &lt;li&gt;Spring Integration 4.3&lt;/li&gt;
-  &lt;li&gt;Spring LDAP 2.1&lt;/li&gt;
-  &lt;li&gt;Spring REST Docs 1.1&lt;/li&gt;
-  &lt;li&gt;Spring Security 4.1&lt;/li&gt;
-  &lt;li&gt;Spring Session 1.2&lt;/li&gt;
-  &lt;li&gt;Spring Web Services 2.3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A number of other Spring projects and their dependencies have also been updated to their latest maintenance releases.&lt;/p&gt;
-&lt;p&gt;For information on upgrading from earlier version of the Platform, please refer to the &lt;a href="http://docs.spring.io/platform/docs/Athens-RELEASE/reference/htmlsingle/#upgrading"&gt;relevant section of the documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://platform.spring.io/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Athens-RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
